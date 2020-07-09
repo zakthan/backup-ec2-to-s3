@@ -6,4 +6,5 @@
 
 [root@ip-172-31-44-41 scripts]# crontab -l
 ####* * * * * /root/scripts/backup_for_crontab.sh &> /tmp/aaa
+
 0 0 * * 0 /root/scripts/backup_for_crontab.sh
